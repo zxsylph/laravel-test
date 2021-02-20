@@ -1,6 +1,6 @@
+<pre>
 @php
 $db = \DB::connection()->getPDO();
+dd($db);
 @endphp
-<pre>
-  {{$db}}
 </pre>
